@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D22666E17BBBE5700B1902C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D22666D17BBBE5700B1902C /* UIKit.framework */; };
+		3D22667017BBBE5700B1902C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D22666F17BBBE5700B1902C /* Foundation.framework */; };
+		3D22667217BBBE5700B1902C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D22667117BBBE5700B1902C /* CoreGraphics.framework */; };
+		3D22667817BBBE5700B1902C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D22667617BBBE5700B1902C /* InfoPlist.strings */; };
+		3D22667A17BBBE5700B1902C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D22667917BBBE5700B1902C /* main.m */; };
+		3D22667E17BBBE5700B1902C /* SelectionTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D22667D17BBBE5700B1902C /* SelectionTableAppDelegate.m */; };
+		3D22668017BBBE5700B1902C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D22667F17BBBE5700B1902C /* Default.png */; };
+		3D22668217BBBE5700B1902C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D22668117BBBE5700B1902C /* Default@2x.png */; };
+		3D22668417BBBE5700B1902C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D22668317BBBE5700B1902C /* Default-568h@2x.png */; };
+		3D22668717BBBE5700B1902C /* SelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D22668617BBBE5700B1902C /* SelectionTableViewController.m */; };
+		3D22668A17BBBE5700B1902C /* SelectionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D22668817BBBE5700B1902C /* SelectionTableViewController.xib */; };
+		3D22669117BBC06E00B1902C /* 足球队dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D22669017BBC06E00B1902C /* 足球队dictionary.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D22666A17BBBE5700B1902C /* SelectionTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectionTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D22666D17BBBE5700B1902C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D22666F17BBBE5700B1902C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D22667117BBBE5700B1902C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D22667517BBBE5700B1902C /* SelectionTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelectionTable-Info.plist"; sourceTree = "<group>"; };
+		3D22667717BBBE5700B1902C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D22667917BBBE5700B1902C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D22667B17BBBE5700B1902C /* SelectionTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelectionTable-Prefix.pch"; sourceTree = "<group>"; };
+		3D22667C17BBBE5700B1902C /* SelectionTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionTableAppDelegate.h; sourceTree = "<group>"; };
+		3D22667D17BBBE5700B1902C /* SelectionTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionTableAppDelegate.m; sourceTree = "<group>"; };
+		3D22667F17BBBE5700B1902C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3D22668117BBBE5700B1902C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3D22668317BBBE5700B1902C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3D22668517BBBE5700B1902C /* SelectionTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionTableViewController.h; sourceTree = "<group>"; };
+		3D22668617BBBE5700B1902C /* SelectionTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionTableViewController.m; sourceTree = "<group>"; };
+		3D22668917BBBE5700B1902C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SelectionTableViewController.xib; sourceTree = "<group>"; };
+		3D22669017BBC06E00B1902C /* 足球队dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "足球队dictionary.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D22666717BBBE5700B1902C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D22666E17BBBE5700B1902C /* UIKit.framework in Frameworks */,
+				3D22667017BBBE5700B1902C /* Foundation.framework in Frameworks */,
+				3D22667217BBBE5700B1902C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D22666117BBBE5600B1902C = {
+			isa = PBXGroup;
+			children = (
+				3D22667317BBBE5700B1902C /* SelectionTable */,
+				3D22666C17BBBE5700B1902C /* Frameworks */,
+				3D22666B17BBBE5700B1902C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D22666B17BBBE5700B1902C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D22666A17BBBE5700B1902C /* SelectionTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D22666C17BBBE5700B1902C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D22666D17BBBE5700B1902C /* UIKit.framework */,
+				3D22666F17BBBE5700B1902C /* Foundation.framework */,
+				3D22667117BBBE5700B1902C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D22667317BBBE5700B1902C /* SelectionTable */ = {
+			isa = PBXGroup;
+			children = (
+				3D22667C17BBBE5700B1902C /* SelectionTableAppDelegate.h */,
+				3D22667D17BBBE5700B1902C /* SelectionTableAppDelegate.m */,
+				3D22668517BBBE5700B1902C /* SelectionTableViewController.h */,
+				3D22668617BBBE5700B1902C /* SelectionTableViewController.m */,
+				3D22668817BBBE5700B1902C /* SelectionTableViewController.xib */,
+				3D22667417BBBE5700B1902C /* Supporting Files */,
+			);
+			path = SelectionTable;
+			sourceTree = "<group>";
+		};
+		3D22667417BBBE5700B1902C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D22669017BBC06E00B1902C /* 足球队dictionary.plist */,
+				3D22667517BBBE5700B1902C /* SelectionTable-Info.plist */,
+				3D22667617BBBE5700B1902C /* InfoPlist.strings */,
+				3D22667917BBBE5700B1902C /* main.m */,
+				3D22667B17BBBE5700B1902C /* SelectionTable-Prefix.pch */,
+				3D22667F17BBBE5700B1902C /* Default.png */,
+				3D22668117BBBE5700B1902C /* Default@2x.png */,
+				3D22668317BBBE5700B1902C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D22666917BBBE5700B1902C /* SelectionTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D22668D17BBBE5700B1902C /* Build configuration list for PBXNativeTarget "SelectionTable" */;
+			buildPhases = (
+				3D22666617BBBE5700B1902C /* Sources */,
+				3D22666717BBBE5700B1902C /* Frameworks */,
+				3D22666817BBBE5700B1902C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectionTable;
+			productName = SelectionTable;
+			productReference = 3D22666A17BBBE5700B1902C /* SelectionTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D22666217BBBE5600B1902C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SelectionTable;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.demo;
+			};
+			buildConfigurationList = 3D22666517BBBE5600B1902C /* Build configuration list for PBXProject "SelectionTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D22666117BBBE5600B1902C;
+			productRefGroup = 3D22666B17BBBE5700B1902C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D22666917BBBE5700B1902C /* SelectionTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D22666817BBBE5700B1902C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D22667817BBBE5700B1902C /* InfoPlist.strings in Resources */,
+				3D22668017BBBE5700B1902C /* Default.png in Resources */,
+				3D22668217BBBE5700B1902C /* Default@2x.png in Resources */,
+				3D22668417BBBE5700B1902C /* Default-568h@2x.png in Resources */,
+				3D22668A17BBBE5700B1902C /* SelectionTableViewController.xib in Resources */,
+				3D22669117BBC06E00B1902C /* 足球队dictionary.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D22666617BBBE5700B1902C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D22667A17BBBE5700B1902C /* main.m in Sources */,
+				3D22667E17BBBE5700B1902C /* SelectionTableAppDelegate.m in Sources */,
+				3D22668717BBBE5700B1902C /* SelectionTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D22667617BBBE5700B1902C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D22667717BBBE5700B1902C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D22668817BBBE5700B1902C /* SelectionTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D22668917BBBE5700B1902C /* en */,
+			);
+			name = SelectionTableViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D22668B17BBBE5700B1902C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D22668C17BBBE5700B1902C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D22668E17BBBE5700B1902C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelectionTable/SelectionTable-Prefix.pch";
+				INFOPLIST_FILE = "SelectionTable/SelectionTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D22668F17BBBE5700B1902C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelectionTable/SelectionTable-Prefix.pch";
+				INFOPLIST_FILE = "SelectionTable/SelectionTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D22666517BBBE5600B1902C /* Build configuration list for PBXProject "SelectionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D22668B17BBBE5700B1902C /* Debug */,
+				3D22668C17BBBE5700B1902C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D22668D17BBBE5700B1902C /* Build configuration list for PBXNativeTarget "SelectionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D22668E17BBBE5700B1902C /* Debug */,
+				3D22668F17BBBE5700B1902C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D22666217BBBE5600B1902C /* Project object */;
+}
